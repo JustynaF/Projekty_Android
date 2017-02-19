@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DataCollector</string>
+    <string name="author">Justyna Firkowska</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="BirthDate">Birth date: dd-MM-yyyy</string>
+    <string name="Add">Add</string>
+    <string name="BirthFormat">dd-MM-yyyy</string>
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="PersonsViewTitle">People</string>
+    <string name="CameraViewTitle">Camera</string>
+    <string name="HistoryViewTitle">History</string>
+    <string name="PhotosViewTitle">Photos</string>
+</resources>

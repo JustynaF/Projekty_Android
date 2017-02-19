@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:background="#fff">
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disp" android:id="@+id/display" android:hint="@string/dispHint"
+        android:typeface="monospace"
+        android:textAlignment="textEnd"
+        android:textSize="36sp"
+        android:inputType="numberDecimal"
+        android:editable="false"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wholeCalc"
+        android:textAlignment="viewEnd"
+        android:typeface="monospace" />
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="20dp">
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/seven" android:text="@string/seven"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/eight" android:text="@string/eight"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/nine" android:text="@string/nine"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/div" android:text="@string/div"
+            android:typeface="monospace" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="20dp">
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/four" android:text="@string/four"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/five" android:text="@string/five"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/six" android:text="@string/six"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/mul" android:text="@string/mul"
+            android:typeface="monospace" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="20dp">
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/one" android:text="@string/one"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/two" android:text="@string/two"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/three" android:text="@string/three"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/sub" android:text="@string/sub"
+            android:typeface="monospace" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="20dp">
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/cancel" android:text="@string/cancel"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/zero" android:text="@string/zero"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/equal" android:text="@string/equal"
+            android:typeface="monospace" />
+        <Button android:layout_width="55dp" android:layout_height="wrap_content" android:id="@+id/add" android:text="@string/add"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="20dp"
+        android:weightSum="1"
+        android:layout_marginTop="50px">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/history" android:text="@string/history"
+            android:typeface="monospace"
+            android:layout_weight="0.24"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
